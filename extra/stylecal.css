@@ -1,0 +1,122 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #558bdc;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+h3 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+form {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #34495e;
+}
+
+input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+}
+
+button {
+    width: 100%;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+#resultado {
+    max-width: 600px;
+    margin: 30px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+#resultado h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+#resultado p {
+    font-size: 16px;
+    color: #7f8c8d;
+    margin: 8px 0;
+}
+
+#resultado span {
+    font-weight: bold;
+}
+
+.red {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.subred {
+    color: #f39c12;
+    font-weight: bold;
+}
+
+.host {
+    color: #2ecc71;
+    font-weight: bold;
+}
+
+
+input, button, #resultado p {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+input[type="text"]:focus {
+    border-color: #3498db;
+    outline: none;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.3);
+}
+
+p span {
+    display: inline-block;
+    padding: 2px 5px;
+    margin-right: 3px;
+    background-color: #ecf0f1;
+    border-radius: 4px;
+    font-family: monospace;
+}

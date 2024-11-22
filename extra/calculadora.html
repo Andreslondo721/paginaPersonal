@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IP V4</title>
+    <link rel="stylesheet" href="stylecal.css">
+</head>
+<body>
+    <h1>Calculadora de IP V4</h1>
+    <h3>Andres Felipe Londoño</h3>
+    <form id="formulario">
+        <label for="ip">Dirección IP (X.X.X.X):</label>
+        <input type="text" id="ip" name="ip" required>
+
+        <label for="mascara">Máscara de red (X.X.X.X o /XX):</label>
+        <input type="text" id="mascara" name="mascara" required>
+
+        <button type="submit">Calcular</button>
+    </form>
+    <div id="resultado" style="margin-top: 20px;"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
